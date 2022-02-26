@@ -15,6 +15,14 @@ It's a one page website.  Maybe external cascade style sheet (css).
 ### Web Site for Kyah
     1. 3 portfolios across
     2. Security is priority #1
+    3. Take payment in cryptocurrency
+    4. Float over and icon changes to pictures she's drawn
+### Hayden Web Site
+    1. Need direction from Hayden
+    2. Pictures she's drawn
+    3. Photos taken
+    4. Ford Fusion (2010) 
+    5. More to come . . .
 ### Web Front-end development
     1. Classes
     2. Best websites for introduction, intermediary, and advanced
