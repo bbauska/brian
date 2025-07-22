@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Brian's Simple Web Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Brian's 1st Simple Web Site</title>
 </head>
 <body>
   <!-- Header -->
@@ -23,10 +23,10 @@
             <li><a href="#about" data-after="About">About</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
           </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+        </div>  <!-- class="nav-list" -->
+      </div>  <!-- class="nav-bar" -->
+    </div>  <!-- class="header container" -->
+  </section>  <!-- id="header" -->
   <!-- End Header -->
 
   <!-- Hero Section  -->
@@ -38,8 +38,8 @@
         <h1>Brian <span></span></h1>
         <a href="#projects" type="button" class="cta">Portfolio</a>
       </div>
-    </div>
-  </section>
+    </div>  <!-- class="hero container" -->
+  </section>  <!-- id="hero" -->
   <!-- End Hero Section  -->
 
   <!-- Service Section -->
@@ -48,7 +48,7 @@
       <div class="service-top">
         <h1 class="section-title">Serv<span>i</span>ces</h1>
         <p>First (1st) of three (3) categories of service projects.  Art - 3 categories for marketing.  Kyah Jean Oldring.</p>
-      </div>
+      </div>  <!-- class="service-top" -->
       <div class="service-bottom">
         <div class="service-item">
           <div class="icon"><img src="./img/css3.png"/></div>
@@ -73,10 +73,10 @@
           <p>LFS170x, LFS171x - by Linux Foundation</p>
 		  <p>CS198.1x, CS198.2x - BerkeleyX</p>
 		  <p>Detailed 12 week course on Crypto, Blockchain and Hyperledger.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+        </div>  <!-- class="service-item" -->
+      </div>  <!-- class="service-bottom" -->
+    </div>  <!-- class="services container" -->
+  </section>  <!-- id="services" -->
   <!-- End Service Section -->
 
   <!-- Projects Section -->
@@ -90,7 +90,7 @@
           <div class="project-info">
             <h1>SDLC-System Analyst</h1>
             <h2>Coding is Love</h2>
-            <p>Software Development Life Cycle in here for System Analyst description (high/top end).</p>
+            <p>Software Development Life Cycle in here for Systems Analyst description (high/top end).</p>
           </div>
           <div class="project-img">
             <img src="./img/Services.png" alt="img">
@@ -105,7 +105,7 @@
           <div class="project-img">
             <img src="./img/css3.png" alt="CSS3 IMAGE description goes here">
           </div>
-        </div>
+        </div>  <!-- class="project-item" -->
         <div class="project-item">
           <div class="project-info">
             <h1>HTML5</h1>
@@ -135,9 +135,9 @@
           <div class="project-img">
             <img src="./img/blockchain.png" alt="Bitcoin, blockchain, hyperledger IMAGE description goes here">
           </div>
-        </div>
-      </div>
-    </div>
+        </div>  <!-- class="project-item" -->
+      </div>  <!-- class="all-projects" -->
+    </div>  <!-- class="projects container" -->
   </section>
   <!-- End Projects Section -->
 
@@ -152,16 +152,20 @@
       <div class="col-right">
         <h1 class="section-title">About <span>me</span></h1>
         <h2>Front End Developer</h2>
-        <p>Everything you want to know about front end web development using html, css and javascript.  From edX.org, Coursera, Meta 
-        (facebook), Harvard, &amp; a slew of online web sites which are awesome. So many to list, like; CS198.1x, CS198.2x, 
-        LFS170x, LFS171x, LFS172x, LFS173x, LFS176x, W3Cx-1of5-CSS.0x, W3Cx-2of5-HTML5.0x, W3Cx-3of5-HTML5.1x, W3Cx-4of5-HTML5.2x &amp; 
-        W3Cx-5of5-JS.0x, UofM Intro to JS, UC at Davis - Interactivity with JS &amp; jQuery, UC Davis - Animation with JavaScript &amp; 
-        jQuery, UC Davis - Data Manipulation in JavaScript, University of Michigan - Intro to HTML, U of M - Interactivity with JS, 
-        U of M - Advanced Styling, U of M - Intro to CSS3, U of M - Interactivity with jQuery, JSON &amp; JavaScript.</p>
-        <a href="#" class="cta">Download Resume</a>
-      </div>
-    </div>
-  </section>
+        <p>Everything you want to know about front end web development using html, css and 
+		  javascript. From edX.org, Coursera, Meta (facebook), Harvard, &amp; a slew of 
+		  online web sites which are awesome. So many to list, like; CS198.1x, CS198.2x, 
+          LFS170x, LFS171x, LFS172x, LFS173x, LFS176x, W3Cx-1of5-CSS.0x, W3Cx-2of5-HTML5.0x, 
+		  W3Cx-3of5-HTML5.1x, W3Cx-4of5-HTML5.2x &amp; W3Cx-5of5-JS.0x, UofM Intro to JS, 
+		  UC at Davis - Interactivity with JS &amp; jQuery, UC Davis - Animation with 
+		  JavaScript &amp; jQuery, UC Davis - Data Manipulation in JavaScript, University 
+		  of Michigan - Intro to HTML, U of M - Interactivity with JS, U of M - Advanced 
+		  Styling, U of M - Intro to CSS3, U of M - Interactivity with jQuery, JSON &amp; 
+		  JavaScript.</p>
+        <a href="https://sayhello.bauska.org" class="cta">Download Resume</a>
+      </div>  <!-- class="col-right" -->
+    </div>  <!-- class="about container" -->
+  </section>  <!-- id="about" -->
   <!-- End About Section -->
 
   <!-- Contact Section -->
@@ -190,11 +194,11 @@
             <h1>Address</h1>
             <h2>200 10th Street, Sp: 17</h2>
             <h2>Goldbar, Washington 98251 USA</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+          </div>  <!-- class="icon" -->
+        </div>  <!-- class="contact-item" -->
+      </div>  <!-- class="contact-items" -->
+    </div>  <!-- class="contact container" -->
+  </section>  <!-- id="contact" -->
   <!-- End Contact Section -->
 
   <!-- Footer -->
@@ -207,19 +211,20 @@
           <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
         </div>
         <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+          <a href="https://www.instagram.com/brianbauska/">
+		    <img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
         </div>
         <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/github.png"/></a>
+          <a href="https://github.com/bbauska">
+		    <img src="https://img.icons8.com/bubbles/100/000000/github.png"/></a>
         </div>
         <div class="social-item">
           <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png"/></a>
         </div>
       </div>
-      <p>Copyright © 2022 Brian "Cellar Door" Bauska. All rights free &amp; open</p>
-    </div>
-  </section>
-  <!-- End Footer -->
+      <p>No copyright © 2022 Brian Bauska. All rights free &amp; open</p>
+    </div>  <!-- class="footer container" -->
+  </section>  <!-- id="footer -->
   <script src="./app.js"></script>
 </body>
 </html>
